@@ -253,6 +253,7 @@ public class GameMenuController {
         BattalionType[] types = {BattalionType.Infantry, BattalionType.Panzer, BattalionType.AirForce,
                 BattalionType.Navy};
 
+
         for (int i = 0; i < 4; i++) {
             result.append(names[i]);
             List<Battalion> battalions = tile.getBattalions(types[i]);
